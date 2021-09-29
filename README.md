@@ -29,7 +29,7 @@
 
 Dataset
 # Dataset Generation
-The dataset was generated from the documents present in [Luminous1](https://drive.google.com/drive/folders/1BW2lC4nPR9302ZGEICoVHPRq9Ir78jTl?usp=sharing).
+The dataset was generated from the documents present in [REMOVED]
 
 The documents were first scanned by an OCR and then if they were in a language other than english they were translated.
 
