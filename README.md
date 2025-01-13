@@ -185,14 +185,6 @@ Measures should be put in place to avoid overfitting since it's extremely likely
 
 Since we are working with arbitrary length strings which are difficult for neural networks to process, using a tokenizer which converts the strings into a set of vectors would greatly improve performance and training speed. This should be more effective than older approaches like bag of words or simple character encoding.
 
-
-
-#
-#
-#
-##
-
-
 # Reviewing different architectures
 ## KNN - K nearest neighbor algorithm
 It is one of the most used learning algorithms due to its simplicity.
@@ -245,12 +237,6 @@ The preprocessing is followed by Convolutional Layers with the activation functi
 
 The input is then flattened and passed into a group of Dense Layers and then finally passed into the output layer which returns our predictions.
 
-##
-##
-##
-##
-
-
 ## Testing
 I experimented with 3 parameters, the number of Conv Layers, the number of Dense Layers and the number of nodes in each hidden layer.
 
@@ -285,18 +271,6 @@ Epoch Loss
 - Balancing the dataset does not affect performance significantly.
 - Models with a single convolutional layer perform better and are less likely to overfit. (other than a few exceptions which were later looked into)
 - Larger dense layers showed a better performance.
-#
-#
-#
-#
-#
-#
-#
-#
-#
-
-
-
 
 # Final Model
 The models with the best performance were selected and trained for more number or epochs and finally the 1-conv[128,128]-dense  was selected and was then trained on all 3 levels of the dataset for 100 epochs.
